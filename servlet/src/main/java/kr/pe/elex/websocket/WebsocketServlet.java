@@ -15,7 +15,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @ServerEndpoint("/")
-public class WebsockerServlet {
+public class WebsocketServlet {
 	private static final Set<Session> sessions;
 
 	static {
